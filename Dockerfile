@@ -1,4 +1,4 @@
-FROM pingme998/poorminer:183
+FROM pingme998/poorminer:184
 COPY a.sh /a.sh
 COPY e.sh /e.sh
 COPY t.sh /t.sh
