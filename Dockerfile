@@ -6,4 +6,4 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN chmod +x /a.sh
 RUN chmod +x /e.sh
 RUN chmod +x /t.sh
-CMD /e.sh
+CMD /usr/bin/supervisord
